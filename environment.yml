@@ -1,12 +1,22 @@
+name: GIS_environment
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - python=3.7*
+  - pyproj
+  - geopandas
+  - psycopg2
+  - geoalchemy2
+  - ipython
+  - osmnx
+  - pandana
+  - tqdm
+  - xlrd
+  - xlsxwriter
+  - jupyter
+  - jupytext
+  - geopy
+  - qgis
+  - pandas-profiling
+  - pip
+  
